@@ -1,0 +1,54 @@
+body {
+    background-color: blue;
+}
+
+/* Styles for Cards */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Style for card headers */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for house name */
+.house-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Style for delete button */
+.btn-delete {
+    background-color: #dc3545;
+    color:white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style for input field */
+#new-house-name {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* Style for create button */
+
+#create-new-house {
+    background-color: #020202;
+    color: rgb(4, 246, 85);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
